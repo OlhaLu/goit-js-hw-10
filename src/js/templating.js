@@ -4,6 +4,7 @@ import '../css/styles.css';
 
 const listProduct = document.querySelector('.menu');
 
+// создаем елементы по шаблону
 function createMenu(menu) {
   menu.forEach(element => {
     listProduct.insertAdjacentHTML('beforeend', itemTemplate(element));
